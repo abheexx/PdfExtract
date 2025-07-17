@@ -1,0 +1,27 @@
+{
+  "name": "multimodal-pdf-qa",
+  "version": "1.0.0",
+  "description": "A modern, conversational AI agent for PDF Q&A",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && python api.py",
+    "install:all": "npm install && cd frontend && npm install",
+    "build": "cd frontend && npm run build",
+    "start": "cd frontend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "pdf",
+    "qa",
+    "ai",
+    "chatbot",
+    "rag",
+    "nextjs",
+    "fastapi"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+} 

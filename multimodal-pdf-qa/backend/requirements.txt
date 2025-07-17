@@ -1,0 +1,9 @@
+streamlit
+openai
+pdfplumber
+chromadb
+faiss-cpu
+tqdm
+fastapi
+uvicorn[standard]
+python-multipart 

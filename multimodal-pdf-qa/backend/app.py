@@ -12,7 +12,7 @@ from openai import OpenAI
 # --- CONFIG ---
 CHUNK_SIZE = 800  # characters per chunk
 CHUNK_OVERLAP = 200
-EMBED_MODEL = "text-embedding-ada-002" #openai embedding model; aws = claude, voyage ;gemini = geminipro bert model;
+EMBED_MODEL = "text-embedding-ada-002" #openai embedding model; aws = claude, voyage ; gemini = geminipro bert model;
 RETRIEVE_K = 5
 
 # --- HELPER FUNCTIONS ---
