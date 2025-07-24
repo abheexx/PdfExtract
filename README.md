@@ -2,14 +2,28 @@
 
 A modern web application that allows users to upload PDF documents and have intelligent conversations with an AI about the content. Built with FastAPI backend and Next.js frontend.
 
+## Demo
+
+### Main Interface
+![Main Interface](demo/main-interface.png)
+*The main application interface showing the PDF upload and chat functionality*
+
+### Chat Conversation
+![Chat Conversation](demo/chat-conversation.png)
+*Example conversation with AI about uploaded PDF content*
+
+### Document Management
+![Document Management](demo/document-management.png)
+*Managing multiple uploaded documents and switching between them*
+
 ## Features
 
-- 📄 **PDF Upload & Processing**: Upload and process PDF documents with text extraction
-- 🤖 **AI-Powered Q&A**: Ask questions about your documents using OpenAI GPT-4
-- 💬 **Conversational Interface**: Maintain chat history for each document
-- 🎨 **Modern UI**: Beautiful, responsive interface with dark/light mode
-- 🔍 **Semantic Search**: Advanced document retrieval using embeddings
-- 📱 **Real-time Chat**: Instant responses with streaming capabilities
+- **PDF Upload & Processing**: Upload and process PDF documents with text extraction
+- **AI-Powered Q&A**: Ask questions about your documents using OpenAI GPT-4
+- **Conversational Interface**: Maintain chat history for each document
+- **Modern UI**: Beautiful, responsive interface with dark/light mode
+- **Semantic Search**: Advanced document retrieval using embeddings
+- **Real-time Chat**: Instant responses with streaming capabilities
 
 ## Tech Stack
 
